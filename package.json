@@ -4,7 +4,9 @@
   "description": "React slideshow is a simple react component that supports slide, fade and zoom effects. It is easily customizable and you can edit some properties to fit your design.",
   "keywords": [],
   "main": "src/index.js",
+  "homepage": "https://thefakeyaber.github.io",
   "dependencies": {
+    "gh-pages": "4.0.0",
     "modern-normalize": "1.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
@@ -12,6 +14,7 @@
   },
   "devDependencies": {
     "@babel/runtime": "7.13.8",
+    "gh-pages": "^4.0.0",
     "react-scripts": "^5.0.1",
     "typescript": "4.1.3"
   },
@@ -19,7 +22,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",

@@ -8,14 +8,13 @@ import styles from "./Slider.module.css";
 export default function Slider() {
   return (
     <div className={styles.container}>
-      <Slide easing="ease" autoplay="false" indicator="true">
+      <Slide easing="ease" autoplay={false}>
         {slideImages.map((slide, index) => {
           return (
             <div className={styles.slide} key={slide}>
               <div style={{ backgroundImage: `url(${slideImages[index]})` }}>
                 <span>{index + 1}/16</span>
               </div>
-              {/* <span className={styles.page}>Slide {index + 1}</span> */}
             </div>
           );
         })}
