@@ -11,7 +11,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-size: auto 100%;
+  background-size: contain;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   height: 100vh;
@@ -24,4 +24,3 @@
   color: white;
   background: rgba(141, 174, 224, 0.5);
   text-align: center;
-}
