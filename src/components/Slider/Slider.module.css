@@ -18,11 +18,14 @@
 }
 
 .slide span {
-  padding: 10px;
-  margin-top: 45%;
+  padding: 7px;
+  margin-top: 47%;
+  /* margin-left: 85%; */
   border-radius: 5px;
   font-size: 10px;
-  color: white;
-  background: #cd1e5581;
+  font-family: 'Poppins';
+  color: #cd1e56;
+  /* color: white; */
+  /* background: #cd1e5581; */
   text-align: center;
 }
