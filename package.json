@@ -4,7 +4,7 @@
   "description": "React slideshow is a simple react component that supports slide, fade and zoom effects. It is easily customizable and you can edit some properties to fit your design.",
   "keywords": [],
   "main": "src/index.js",
-  "homepage": "https://thefakeyaber.github.io",
+  "homepage": "https://thefakeyaber.github.io/hellotask_pitchdeck",
   "dependencies": {
     "gh-pages": "4.0.0",
     "modern-normalize": "1.1.0",
