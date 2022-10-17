@@ -1,5 +1,4 @@
 import { Slide } from "react-slideshow-image";
-
 import slideImages from "../../data/images";
 
 import "react-slideshow-image/dist/styles.css";
@@ -12,7 +11,7 @@ export default function Slider() {
         {slideImages.map((slide, index) => {
           return (
             <div className={styles.slide} key={slide}>
-              <div style={{ backgroundImage: `url(${slideImages[index]})` }}>
+              <div style={{ backgroundImage: `url(require(${slideImages[index]}))` }}>
                 <span>{index + 1}/16</span>
               </div>
             </div>
