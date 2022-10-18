@@ -2,7 +2,6 @@
   width: 100%;
   height: auto;
   margin: 0 auto;
-
   list-style: none;
   padding: 0;
 }
@@ -14,18 +13,19 @@
   background-size: contain;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 95vh;
 }
 
 .slide span {
   padding: 7px;
-  margin-top: 47%;
+  margin-bottom: 50% ;
+  /* margin-top: 47%; */
   /* margin-left: 85%; */
   border-radius: 5px;
-  font-size: 10px;
+  font-size: 12px;
   font-family: 'Poppins';
   color: #cd1e56;
   /* color: white; */
-  /* background: #cd1e5581; */
+  background: #FFF;
   text-align: center;
 }

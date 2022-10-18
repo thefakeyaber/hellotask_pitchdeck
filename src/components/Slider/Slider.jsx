@@ -7,12 +7,12 @@ import styles from "./Slider.module.css";
 export default function Slider() {
   return (
     <div className={styles.container}>
-      <Slide easing="ease" autoplay={false}>
+      <Slide easing="ease" autoplay={false} indicators={true}>
         {slideImages.map((slide, index) => {
           return (
             <div className={styles.slide} key={slide}>
-              <div style={{ backgroundImage: `url(require(${slideImages[index]}))` }}>
-                <span>{index + 1}/16</span>
+              <div style={{ backgroundImage: `url(${slideImages[index]})` }}>
+                {/* <span>{index + 1}/16</span> */}
               </div>
             </div>
           );
