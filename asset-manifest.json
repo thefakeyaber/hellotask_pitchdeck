@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/hellotask_pitchdeck/static/css/main.9596baba.css",
-    "main.js": "/hellotask_pitchdeck/static/js/main.a6202dfd.js",
+    "main.css": "/hellotask_pitchdeck/static/css/main.874749b2.css",
+    "main.js": "/hellotask_pitchdeck/static/js/main.bdd2ca36.js",
     "index.html": "/hellotask_pitchdeck/index.html",
-    "main.9596baba.css.map": "/hellotask_pitchdeck/static/css/main.9596baba.css.map",
-    "main.a6202dfd.js.map": "/hellotask_pitchdeck/static/js/main.a6202dfd.js.map"
+    "main.874749b2.css.map": "/hellotask_pitchdeck/static/css/main.874749b2.css.map",
+    "main.bdd2ca36.js.map": "/hellotask_pitchdeck/static/js/main.bdd2ca36.js.map"
   },
   "entrypoints": [
-    "static/css/main.9596baba.css",
-    "static/js/main.a6202dfd.js"
+    "static/css/main.874749b2.css",
+    "static/js/main.bdd2ca36.js"
   ]
 }
